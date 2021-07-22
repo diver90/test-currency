@@ -78,11 +78,6 @@ class OpenExService
     {
         $response = $this->sendRequest(self::CURRENCIES_LIST );
         $dataArray = json_decode($response, 1);
-//        if(array_key_exists('rates', $dataArray)){
-            return $dataArray;
-//        } else{
-//            throw new \Exception('Wrong data in response');
-//        }
-
+        return $dataArray;
     }
 }
