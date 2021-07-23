@@ -20,7 +20,7 @@ class SaveCurrecies extends Command
      *
      * @var string
      */
-    protected $description = 'Get currencies from providers and save it into db';
+    protected $description = 'Get currencies latest rates from providers and save it into db';
 
     /**
      * Create a new command instance.
